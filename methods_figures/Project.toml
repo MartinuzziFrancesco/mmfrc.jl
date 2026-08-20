@@ -1,0 +1,16 @@
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+ChaoticDynamicalSystemLibrary = "55704126-756f-498a-a54f-434b72ecbddd"
+ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
+ColorVectorSpace = "c3611d14-8923-5661-9e6a-0046d554d3a4"
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+OrdinaryDiffEqAdamsBashforthMoulton = "89bda076-bce5-4f1c-845f-551c83cdda9a"
+OrdinaryDiffEqFeagin = "101fe9f7-ebb6-4678-b671-3a81e7194747"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ReservoirComputing = "7c2d2b1e-3dd4-11ea-355a-8f6a8116e294"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+ReservoirComputing = "=0.12.1"
