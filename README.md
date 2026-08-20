@@ -2,10 +2,10 @@
 
 Code accompanying:
 
-> F. Martinuzzi, H. Kantz, "Storage and recall of multiple chaotic attractors in minimal reservoir computers", *Chaos* (2026).
+> [F. Martinuzzi, H. Kantz, "Storage and recall of multiple chaotic attractors in minimal reservoir computers", *Chaos* (2026).](https://doi.org/10.1063/5.0334052)
 
 This repository contains the Julia code used to run all experiments and generate the figures
-in the paper. It does **not** contain any generated data, results, or figures — everything is
+in the paper. It does **not** contain any generated data, results, or figures; everything is
 regenerated from scratch by the scripts below, starting from the eight benchmark chaotic
 systems (Aizawa, Arneodo, Chua, GenesioTesi, Halvorsen, Lorenz, Rössler, SprottS).
 
@@ -43,11 +43,6 @@ systems:
 - **PARC** (parameter-aware reservoir computing) — a scalar label fed through the bias term
   selects which attractor to recall. Code: `base/parc_model.jl` + `base/parc_training.jl`,
   run with `parc_runs.jl` → writes to `parc_results/`.
-
-There is also a third variant, `obt_runs.jl` (`base/obt_training.jl` → `obt_results/`), which
-trains on the two attractors as separate, unlabelled, non-concatenated segments. It is kept
-here because it's part of the same codebase, but it is not one of the two protocols reported
-in the current manuscript text — treat it as exploratory/development code.
 
 ## Reproducing the results
 
